@@ -9,7 +9,6 @@ public class ChatServer {
 
     ChatServer() throws IOException {
         serverSocket = new ServerSocket(1234);
-
     }
 
     void sendAll(String message) {

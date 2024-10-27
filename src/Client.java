@@ -11,7 +11,6 @@ class Client implements Runnable {
     PrintStream out;
     ChatServer server;
 
-
     public Client(Socket socket, ChatServer server) {
         new Thread(this).start();
         this.socket = socket;
