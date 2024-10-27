@@ -20,7 +20,6 @@ class Client implements Runnable {
 
     void receive(String message) {
         out.println(message);
-
     }
 
     public void run() {

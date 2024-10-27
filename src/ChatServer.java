@@ -16,7 +16,6 @@ public class ChatServer {
         for (Client client : clients) {
             client.receive(message);
         }
-
     }
 
     public void run() {
@@ -34,6 +33,5 @@ public class ChatServer {
 
     public static void main(String[] args) throws IOException {
         new ChatServer().run();
-
     }
 }
